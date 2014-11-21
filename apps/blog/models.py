@@ -34,7 +34,7 @@ class Post(models.Model):
 
     @models.permalink
     def get_absolute_url(self):
-        return ('posts:posts', [self.pk], {})
+        return ('blog:posts', [self.pk], {})
 
     def search(self):
         return dict(source=_(u'Post'), title=self.title, desc=self.content)
@@ -50,3 +50,4 @@ class Post(models.Model):
             return Post.objects.all().filter(created__lt=self.created).exclude(pk=self.pk).order_by('-created')[:1].get()
         except Post.DoesNotExist:
             return
+

@@ -1,0 +1,91 @@
+ping to 10.10.21.1 g. Khanty-Mansiysk router OK
+PID: CISCO2811 SN: FCZ12397249
+PID: NME-RVPN SN: FOC12420CEW
+ping to 10.10.21.34 g. Khanty-Mansiysk switch OK
+PID: WS-C2960 SN: FOC1247Z065
+ping to 10.10.21.35 g. Khanty-Mansiysk apc OK
+ping to 10.10.29.1 g.Khanty-Mansiyskiy r-n router OK
+PID: CISCO2811 SN: FCZ12397251
+PID: NME-RVPN SN: FOC12420CLA
+ping to 10.10.29.34 g.Khanty-Mansiyskiy r-n switch OK
+PID: WS-C2960 SN: FOC1247Z06W
+ping to 10.10.29.35 g.Khanty-Mansiyskiy r-n apc OK
+ping to 10.10.106.1 Surgutskiy r-n router OK
+PID: CISCO2811 SN: FCZ1239724G
+PID: HWIC-4ESW SN: FOC14166GXY
+PID: HWIC-1FE SN: FOC161813UR
+PID: HWIC-2FE SN: FOC164775YZ
+PID: NME-RVPN SN: FOC12420C8S
+ping to 10.10.106.34 Surgutskiy r-n switch OK
+PID: WS-C2960 SN: FOC1247Z075
+ping to 10.10.106.35 Surgutskiy r-n apc OK
+ping to 10.10.107.1 g. Nizhnevartovsk router OK
+PID: CISCO2811 SN: FCZ12397247
+PID: HWIC-4ESW SN: FOC14166GQC
+PID: HWIC-1FE SN: FOC161813W6
+PID: HWIC-2FE SN: FOC1647764D
+PID: NME-RVPN SN: FOC12323TBE
+ping to 10.10.107.34 g. Nizhnevartovsk switch OK
+ping to 10.10.108.1 Nizhnevartovskiy r-n router OK
+PID: CISCO2811 SN: FCZ1239724K
+PID: HWIC-2FE SN: FOC164939B6
+PID: HWIC-1FE SN: FOC15460RFA
+ping to 10.10.108.34 Nizhnevartovskiy r-n switch OK
+PID: WS-C2960 SN: FOC1247Z45A
+ping to 10.10.108.35 Nizhnevartovskiy r-n apc OK
+ping to 10.10.109.1 Beloyarskiy r-n router OK
+PID: CISCO2811 SN: FCZ1239724P
+PID: HWIC-4ESW SN: FOC13296D3R
+PID: HWIC-1FE SN: FOC160363D2
+PID: HWIC-2FE SN: FOC1649398V
+PID: NME-RVPN SN: FOC12420CJ0
+ping to 10.10.109.34 Beloyarskiy r-n switch OK
+PID: WS-C2960 SN: FOC1247Z48S
+ping to 10.10.109.35 Beloyarskiy r-n apc OK
+ping to 10.10.110.1 Berozovskiy r-n router OK
+PID: CISCO2811 SN: FCZ1239724C
+PID: HWIC-4ESW SN: FOC141415VF
+PID: HWIC-2FE SN: FOC1649391V
+PID: HWIC-1FE SN: FOC16312CZ3
+ping to 10.10.110.34 Berozovskiy r-n switch OK
+PID: WS-C2960 SN: FOC1247Z0CQ
+ping to 10.10.110.35 Berozovskiy r-n apc OK
+ping to 10.10.111.1 g. Kogalym router OK
+ping to 10.10.111.34 g. Kogalym switch OK
+ping to 10.10.111.35 g. Kogalym apc OK
+ping to 10.10.112.1 g. Langepas router OK
+ping to 10.10.112.34 g. Langepas switch OK
+ping to 10.10.112.35 g. Langepas apc OK
+ping to 10.10.113.1 g. Megion router OK
+ping to 10.10.113.34 g. Megion switch OK
+ping to 10.10.113.35 g. Megion apc OK
+ping to 10.10.114.1 g. Mezhdurechensk Kondinskiy r-n router OK
+ping to 10.10.114.34 g. Mezhdurechensk Kondinskiy r-n switch OK
+ping to 10.10.114.35 g. Mezhdurechensk Kondinskiy r-n apc OK
+ping to 10.10.116.1 Nefteyuganskiy r-n router OK
+ping to 10.10.116.34 Nefteyuganskiy r-n switch OK
+ping to 10.10.116.35 Nefteyuganskiy r-n apc OK
+ping to 10.10.117.1 g. Nyagan router OK
+ping to 10.10.117.34 g. Nyagan switch OK
+ping to 10.10.118.1 Oktyabr'skiy r-n router OK
+ping to 10.10.118.34 Oktyabr'skiy r-n switch OK
+ping to 10.10.118.35 Oktyabr'skiy r-n apc OK
+ping to 10.10.119.1 g. Pokachi router OK
+ping to 10.10.119.34 g. Pokachi switch OK
+ping to 10.10.119.35 g. Pokachi apc OK
+ping to 10.10.120.1 g. Pyt'-Yakh router OK
+ping to 10.10.120.34 g. Pyt'-Yakh switch OK
+ping to 10.10.120.35 g. Pyt'-Yakh apc OK
+ping to 10.10.121.1 g. Raduzhnyy router OK
+ping to 10.10.121.34 g. Raduzhnyy switch OK
+ping to 10.10.122.1 Sovetskiy r-n router OK
+ping to 10.10.122.34 Sovetskiy r-n switch OK
+ping to 10.10.122.35 Sovetskiy r-n apc OK
+ping to 10.10.123.1 g. Surgut router OK
+ping to 10.10.123.34 g. Surgut switch OK
+ping to 10.10.123.35 g. Surgut apc OK
+ping to 10.10.124.1 g. Uray router OK
+ping to 10.10.124.34 g. Uray switch OK
+ping to 10.10.125.1 g. Yugorsk router OK
+ping to 10.10.125.34 g. Yugorsk switch OK
+ping to 10.10.125.35 g. Yugorsk apc OK
