@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*
+from ckeditor.fields import RichTextField
 from django.contrib.auth.models import User
 
 from django.db import models
@@ -14,7 +15,7 @@ class PostManager(models.Manager):
 
 class Post(models.Model):
     title = models.CharField(_(u'title'), max_length=255)
-    content = models.TextField(_(u'content'), help_text=_('Use Markdown and HTML'))
+    content = RichTextField(_(u'content'))
     created = models.DateTimeField(_(u'created'), auto_now_add=True)
     author = models.ForeignKey(User, editable=True)
     approved = models.BooleanField(_(u'approved'), default=True,
