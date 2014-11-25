@@ -10,6 +10,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href= {% static "blog/css/bootstrap.min.css" %} rel="stylesheet">
+    <!-- Me css to project -->
+    <link href= {% static "blog/css/me.css" %} rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href={% static "blog/css/clean-blog.min.css" %} rel="stylesheet">
@@ -38,7 +40,9 @@
                     <span class="icon-bar">3</span>
                     <span class="icon-bar">4</span>
                 </button>
-                <a class="navbar-brand" href="{% url 'blog:posts' %}">b9om</a>
+                <!-- Plugin Content-->
+
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,8 +66,10 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
+  {% block header %}
     <header class="intro-header" style="background-image: url('{% static 'blog/img/home-bg.jpg' %}')">
         <div class="container">
+            <a name="top" />
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
@@ -75,6 +81,7 @@
             </div>
         </div>
     </header>
+  {% endblock %}
 
 {% block content %}
 {% endblock %}
@@ -115,13 +122,44 @@
     </footer>
 
     <!-- jQuery -->
-    <script src={% static  'blog/js/jquery.js' %}></script>
+    <script src={% static  'blog/js/jquery.js' %}>
+
+
+
+    </script>
+
+
 
 
     <script src={% static 'blog/js/bootstrap.min.js' %}></script>
 
     <!-- Custom Theme JavaScript -->
     <script src={% static 'blog/js/clean-blog.min.js' %}></script>
+
+
+ <script type="application/javascript">
+(function($){
+    $.fn.liScrollToTop = function(params){
+        return this.each(function(){
+            var scrollUp = $(this);
+            scrollUp.hide();
+            if ($(window).scrollTop() > 0) scrollUp.fadeIn("slow")
+            $(window).scroll(function() {
+                if ($(window).scrollTop() <= 0) scrollUp.fadeOut("slow")
+                else scrollUp.fadeIn("slow")
+            });
+            scrollUp.click(function() {
+                $("html, body").animate({scrollTop: 0}, "slow")
+            })
+        });
+    };
+})(jQuery);
+
+/*Инициализация плагина*/
+$(function(){
+    $('.scrollUp').liScrollToTop();
+});
+ </script>
 
 </body>
 

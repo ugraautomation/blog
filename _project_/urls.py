@@ -13,4 +13,5 @@ urlpatterns = patterns('',
     url(r'^blog/',include('apps.blog.urls','blog')),
     url(r'^ckeditor/', include('ckeditor.urls')),
 
+
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

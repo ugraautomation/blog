@@ -7,23 +7,28 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
                 {% for post in posts %}
                     {% autoescape off %}
+
                     <div class="post-preview">
-                        <a href="post.html">
+                        <a href= {{ post.get_absolute_url }}>
                             <h2 class="post-title">
                                 {{ post.title }}
                             </h2>
                             <h3 class="post-subtitle">
-                                {{ post.content }}
+                                {{ post.subtitle }}
                             </h3>
                         </a>
                         <p class="post-meta">Posted by <a href="#">{{ post.author.username }}</a> {{ post.created }}</p>
                     </div>
+
                     {% endautoescape  %}
+
                     <hr>
-                     {% empty %}
-                       <p>Статей не обнаружено :(</p>
+
+                    {% empty %}
+                    <p>Статей не обнаружено :(</p>
                 {% endfor %}
 
 
@@ -57,9 +62,8 @@
 
                 {% endif %}
 
-
-
             </div>
         </div>
     </div>
+    <div class="scrollUp">&uarr;</div>
 {% endblock %}

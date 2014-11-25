@@ -1,0 +1,17 @@
+.scrollUp {
+    position:fixed;
+    top:auto;
+    bottom:10px;
+    left:10px;
+    right:auto;
+    border-radius:5px;
+    background-color: #404040;
+    z-index:9999;
+    opacity:0.9;
+    cursor:pointer;
+    padding:8px 20px 12px;
+    font-size:16px;
+    text-transform:uppercase;
+    color: #ffffff;
+    text-align:center;
+}

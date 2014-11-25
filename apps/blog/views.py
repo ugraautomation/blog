@@ -1,15 +1,18 @@
 from django.shortcuts import render, render_to_response
 
 # Create your views here.
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 from apps.blog.models import Post
 
 
 class Posts(ListView):
     context_object_name = 'posts'
-    queryset = Post.objects.all().order_by("-created")
+    queryset = Post.objects.approved().order_by("-created")
     template_name = 'blog/index.html'
-    paginate_by = 2
+    paginate_by = 10
+
+
+
 
 
 
