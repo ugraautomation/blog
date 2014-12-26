@@ -12,6 +12,15 @@ class Posts(ListView):
     paginate_by = 10
 
 
+class TagView(ListView):
+    context_object_name = 'posts'
+    paginate_by = 10
+    template_name = 'blog/index.html'
+
+    def get_queryset(self):
+        return Post.objects.approved().filter(tag__slug__in=[self.args[0]])
+
+
 
 
 

@@ -20,7 +20,23 @@
                                 {{ post.subtitle }}
                             </h3>
                         </a>
-                        <p class="post-meta">Posted by <a href="#">{{ post.author.username }}</a> {{ post.created }}</p>
+
+                        <ul class="list-inline">
+                            <li ><h6>Теги:</h6></li>
+                        {% for name,slug in post.get_slugs_names %}
+
+                         {% if forloop.last %}
+                            <li><a href = "{% url 'blog:tag' slug %}"><h5><small><mark>{{ name }}</mark></small></h5></a></li>
+                         {% else %}
+                            <li><a href = "{% url 'blog:tag' slug %}"><h5><small><mark>{{ name }}</mark>,</small></h5></a></li>
+                         {% endif %}
+
+
+                        {% endfor %}
+                        </ul>
+
+                        <p class="post-meta">Опубликованно <a href="#">{{ post.author.username }}</a> {{ post.created }}</p>
+
                     </div>
 
                     {% endautoescape  %}

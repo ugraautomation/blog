@@ -2,7 +2,7 @@
 
 
 {% block header %}
-<header class="intro-header" style="background-image:  url('{% static 'blog/img/post-bg.jpg' %}')">
+<header class="intro-header" style="background-image:  url(' {{ post.thumbnail_url }} ')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -29,6 +29,7 @@
         </div>
     </article>
     {% endautoescape  %}
+<div class="scrollUp">&uarr;</div>
 
 {% endblock %}
 

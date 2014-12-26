@@ -54,6 +54,7 @@ INSTALLED_APPS += (
     'taggit_autosuggest',
     'taggit',
     'ckeditor',
+    'watson',
 
 
 
@@ -82,6 +83,7 @@ CKEDITOR_JQUERY_URL = '//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.j
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': None,
-        'extraPlugins': 'oembed',
     },
 }
+
+SLUG_TRANSLITERATOR = unicode
